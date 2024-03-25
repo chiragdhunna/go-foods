@@ -165,7 +165,7 @@ router.post("/foodData", async (req, res) => {
     console.log("Food Category from Auth.js");
     console.log(global.foodCategory);
 
-    let dataForFood = res.send([global.foodData, global.foodCategory]);
+    let dataForFood = res.send([global.foodData, global.foodCategory, "hi"]);
   } catch (error) {
     console.error(error.message);
     res.send("Server Error");
