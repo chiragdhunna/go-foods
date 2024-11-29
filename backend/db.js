@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const mongoURI =
-  "mongodb+srv://chigsdroid:password@cluster0.jsnoftw.mongodb.net/";
+  "mongodb+srv://chigsdroid:w16XAoMuh7NQYI5U@cluster0.jsnoftw.mongodb.net/";
 
 module.exports = async function (callback) {
   try {
