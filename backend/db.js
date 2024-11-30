@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURI =
-  "mongodb+srv://chigsdroid:w16XAoMuh7NQYI5U@cluster0.jsnoftw.mongodb.net/";
+const mongoURI = process.env.MONGO_URI;
 
 module.exports = async function (callback) {
   try {
